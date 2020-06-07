@@ -52,10 +52,10 @@ module.exports = {
 
     /* here you can define another html file and its dependencies */
     new HtmlWebpackPlugin({
-      template: "./src/pages/index.html",
+      template: "./src/pages/index1.html",
       inject: true,
       chunks: ["index"],
-      filename: "index.html",
+      filename: "index1.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/pages/another.html",
@@ -68,6 +68,36 @@ module.exports = {
       inject: true,
       chunks: ["index"],
       filename: "krystian.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/index.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-css.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "nauka-css.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-html.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "nauka-html.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-js.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "nauka-js.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/nauka-terminal.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "nauka-terminal.html",
     }),
   ],
 };
