@@ -1,29 +1,21 @@
-import '../scss/main.scss';
-import moment from 'moment';
+import "../scss/main.scss";
+import moment from "moment";
 
 /* place your code below */
 
-console.log('HELLO 🚀')
+console.log("HELLO 🚀");
 
-console.log(moment().startOf('day').fromNow());
+console.log(moment().startOf("day").fromNow());
 
-const calfculate = (myNumber) => myNumber * 7;
-console.log(calfculate(7));
-
-
-
-  const heading = document.querySelector(".main__heading--js");
-
-  heading.innerHTML = moment().format("MMM Do YY");         
+const time = moment().format("MMM Do YY");
+const heading = document.querySelector(".time--js");
+heading.innerHTML = time;
 
 
 
+const hamburger = document.querySelector(".hamburger--js");
 
-
- const hamburger = document.querySelector('.hamburger--js'); 
-
- hamburger.addEventListener('click', () => { 
-     const nav = document.querySelector('.navigation--js'); 
-     nav.classList.toggle('navigation--open'); 
-
- });
+hamburger.addEventListener("click", () => {
+  const nav = document.querySelector(".navigation--js");
+  nav.classList.toggle("navigation--open");
+});

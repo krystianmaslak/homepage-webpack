@@ -1,11 +1,9 @@
 @import "~normalize.css";
-
 @import "_variables";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,700;1,400;1,900&display=swap");
 @import "modules/hello.scss";
 @import "modules/layers.scss";
 @import "modules/start.scss";
-
-
 
 html {
   box-sizing: border-box;
@@ -30,6 +28,7 @@ body {
     #185a9d,
     #43cea2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -103,7 +102,7 @@ section {
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       width: 10px;
       height: 10px;
