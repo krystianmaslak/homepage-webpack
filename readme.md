@@ -6,7 +6,7 @@ This is my simple home page.
 
 ## How to fire it?
 
-First enable 'npm install' and then follow the instructions:
+First enable `npm install` and then follow the instructions:
 
 `npm run start` - runs development mode
 
