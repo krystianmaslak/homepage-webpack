@@ -4,6 +4,8 @@
 
 This is my simple home page.
 
+Link: https://krystianmaslak.github.io/homepage-webpack/
+
 ## How to fire it?
 
 First enable `npm install` and then follow the instructions:
