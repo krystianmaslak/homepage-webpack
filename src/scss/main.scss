@@ -81,6 +81,7 @@ section {
     padding: 10px 0;
     text-decoration: none;
     text-transform: uppercase;
+    transition: color .3s linear;
     // margin: 0 0 16px;
 
     &--homepage {
@@ -155,6 +156,14 @@ a {
   background: #333333;
   padding: 20px;
   grid-area: footer;
+
+  &__link {
+    transition: color .3s linear;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 .table {
